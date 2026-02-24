@@ -95,7 +95,7 @@
 
 /* Widgets Styling */
 .widgets{
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
 }
 .widgets-div{
     display: flex;
@@ -116,4 +116,75 @@
 .widget3{
     display: flex;
     flex-direction: row;    
+}
+
+/* Menu section styling */
+
+.menu{
+    margin: 0vw 7vw 0vw 7vw;
+    margin-bottom: 5vw;
+}
+.menu-div{
+    background-color: rgb(241, 202, 8);
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+    width:20vw;
+    margin-left: 31vw;
+    margin-bottom: 6vw;
+    padding: 1vw 0vw 1vw 2vw;
+    border-radius: 1vw;
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+}
+.asian{
+    display: flex;
+    flex-direction: column; 
+    transition: all 0.3s ease-in;
+}
+.asian:hover{
+    transform: translateY(-1vw);   
+}
+.italian{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+}
+.italian:hover{
+    transform: translateY(-1vw);   
+}
+.chinese{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+}
+.chinese:hover{
+    transform: translateY(-1vw);   
+}
+.mexican{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+}
+.mexican:hover{
+    transform: translateY(-1vw);   
+}
+.french{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+}
+.french:hover{
+    transform: translateY(-1vw);   
+}
+.korean{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+}
+.korean:hover{
+    transform: translateY(-1vw);   
 }
