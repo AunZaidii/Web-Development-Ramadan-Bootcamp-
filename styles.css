@@ -188,3 +188,86 @@
 .korean:hover{
     transform: translateY(-1vw);   
 }
+
+/* footer styling */
+
+.footer{
+    background-color: rgba(255, 246, 68, 0.635);
+    height: 40vh;
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+.footer-logo-image{
+    width: 30vw;
+    margin: 4vw 0vw 0vw 3vw;
+}
+ul{
+    list-style: none;
+    margin-top: 2vw;
+    padding: 0;
+    margin-right: 0vw;    
+}
+ul li{
+    padding-top: 0.7vw;
+}
+ul li a {
+    color: rgb(51, 53, 53);
+    text-decoration: none;
+}
+.footer-input{
+    margin: 3vw 8vw 0vw 0vw
+}
+.footer-input-box{
+    padding: 1vw;
+    border: none;
+    border-radius: 0.5vw;
+}
+.footer-submit-button{
+    padding: 1vw;
+    margin-left: 1vw;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 1vw;
+}
+.footer-submit-button:hover{
+    transform: translateY(-0.3vw);
+    transition: all 0.2s ease-in;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    margin: 0;
+}
+.social-links .fa-facebook{
+    font-size: 2vw;
+    color: black;
+}
+.social-links .fa-facebook:hover{
+    transform: translateY(-0.3vw);
+    transition: all 0.2s ease-in;
+    color: orange;
+}
+.social-links .fa-instagram{
+    font-size: 2vw;
+    color: black;
+}
+.social-links .fa-instagram:hover{
+    transform: translateY(-0.3vw);
+    transition: all 0.2s ease-in;
+    color: orange;
+}
+.social-links .fa-twitter{
+    font-size: 2vw;
+    color: black;
+}
+.social-links .fa-twitter:hover{
+    transform: translateY(-0.3vw);
+    transition: all 0.2s ease-in;
+    color: orange;
+}
