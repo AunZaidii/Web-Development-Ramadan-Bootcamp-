@@ -17,6 +17,9 @@
 .navbar-buttons{
     margin: 1.5vw 3vw 0vw 0vw;
 }
+.fa-bars{
+    display: none;
+}
 .login-button{
     background-color: rgb(241, 202, 8);
     color: white;
@@ -193,7 +196,10 @@
 
 .footer{
     background-color: rgba(255, 246, 68, 0.635);
-    height: 40vh;
+    min-height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .footer-div{
     display: flex;
@@ -270,4 +276,10 @@ ul li a {
     transform: translateY(-0.3vw);
     transition: all 0.2s ease-in;
     color: orange;
+}
+
+.footer-copy{
+    text-align: center;
+    margin: 2.5vw auto 1.5vw auto;
+    font-size: small;
 }
